@@ -1,0 +1,52 @@
+[versions]
+activityKtx = "1.9.3"
+agp = "8.7.2"  # Downgrade to a stable AGP version compatible with current dependencies
+androidxJunit = "1.2.1"
+appcompatVersion = "1.7.0"
+constraintlayoutVersion = "2.2.0"
+core = "1.40.0"  # Align with compatible Amplify SDK versions
+coreKotlin = "1.40.0"
+coreKtxVersion = "1.10.1"  # Latest stable version for core-ktx
+kotlin = "1.8.22"  # Align with AGP 8.1.0
+coreKtx = "1.10.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+materialVersion = "1.12.0"
+roomKtx = "2.6.1"
+transportApi = "4.0.0"
+noti = "1.3.70"
+firebaseCrashlyticsBuildtools = "3.0.2"
+
+[libraries]
+androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
+androidx-appcompat-v140 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+androidx-constraintlayout-v214 = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayoutVersion" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-ktx-v190 = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
+androidx-junit-v113 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+aws-analytics-pinpoint = { module = "com.amplifyframework:aws-analytics-pinpoint", version.ref = "core" }
+aws-api = { module = "com.amplifyframework:aws-api", version.ref = "core" }
+aws-auth-cognito = { module = "com.amplifyframework:aws-auth-cognito", version.ref = "core" }
+aws-datastore = { module = "com.amplifyframework:aws-datastore", version.ref = "core" }
+aws-notifications = { module = "com.amplifyframework:aws-notifications", version.ref = "noti" }
+aws-storage-s3 = { module = "com.amplifyframework:aws-storage-s3", version.ref = "core" }
+core = { module = "com.amplifyframework:core", version.ref = "core" }
+core-kotlin = { module = "com.amplifyframework:core-kotlin", version.ref = "coreKotlin" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+material-v140 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
+transport-api = { group = "com.google.android.datatransport", name = "transport-api", version.ref = "transportApi" }
+firebase-crashlytics-buildtools = { group = "com.google.firebase", name = "firebase-crashlytics-buildtools", version.ref = "firebaseCrashlyticsBuildtools" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

@@ -1,0 +1,44 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myawstest-dev-de068-authRole",
+      "UnauthRoleArn": "arn:aws:iam::043309360925:role/amplify-myawstest-dev-de068-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::043309360925:role/amplify-myawstest-dev-de068-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-myawstest-dev-de068-deployment",
+      "UnauthRoleName": "amplify-myawstest-dev-de068-unauthRole",
+      "StackName": "amplify-myawstest-dev-de068",
+      "StackId": "arn:aws:cloudformation:eu-west-3:043309360925:stack/amplify-myawstest-dev-de068/a0132580-9f89-11ef-bd70-0ec2e369686f",
+      "AmplifyAppId": "d2ecylxg832cua"
+    },
+    "categories": {
+      "api": {
+        "myawstest": {}
+      },
+      "auth": {
+        "myawstest6b5f1e20": {}
+      }
+    }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myawstest-test-fad81-authRole",
+      "UnauthRoleArn": "arn:aws:iam::043309360925:role/amplify-myawstest-test-fad81-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::043309360925:role/amplify-myawstest-test-fad81-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-myawstest-test-fad81-deployment",
+      "UnauthRoleName": "amplify-myawstest-test-fad81-unauthRole",
+      "StackName": "amplify-myawstest-test-fad81",
+      "StackId": "arn:aws:cloudformation:eu-west-3:043309360925:stack/amplify-myawstest-test-fad81/8cadd5a0-a22f-11ef-ac35-0a24ccfd8353",
+      "AmplifyAppId": "d2ecylxg832cua"
+    },
+    "categories": {
+      "auth": {
+        "myawstest6b5f1e20": {}
+      },
+      "api": {
+        "myawstest": {}
+      }
+    }
+  }
+}
